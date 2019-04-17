@@ -4,18 +4,25 @@
   <meta charset="utf-8">
   <title>WS-Features</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Bad+Script|Open+Sans:400,700" rel="stylesheet">
+  <link href="css/modules.css" rel="stylesheet">
   <link href="css/modules.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
-  <header class="banner">
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
+
+  <header role="banner">
     <div class="grid">
       <h1 class="logo unit xs-1 s-1 m-1-2 l-1-2">WS</h1>
     </div>
     <div>
-      <nav class="nav">
+      <nav role="navigation">
         <ol class="grid list-group-inline">
           <li class="unit xs-1 s-1 m-1-4 l-1-4"><a class="current" href="index.html">Home</a></li>
           <li class="unit xs-1 s-1 m-1-4 l-1-4"><a href="tour.html">Features</a></li>
@@ -26,38 +33,62 @@
     </div>
   </header>
 
-  <main>
-    <h2>Features</h2>
-    <div class="table-wrapper">
-      <table class="push-0">
+  <main role="main">
+    <section>
+      <h2>Features</h2>
+      <div class="table-wrapper">
+        <table class="push-0">
 
-        <tbody>
-          <tr>
-            <th scope="row">Chat</th>
-            <td>Video Chat & Screen Sharing</td>
-            <td>Direct Messaging</td>
-          </tr>
+          <tbody>
+            <tr>
+              <th scope="row">Chat</th>
+              <td>Video Chat & Screen Sharing</td>
+              <td>Direct Messaging</td>
+            </tr>
 
-          <tr>
-            <th scope="row">Share</th>
-            <td>Post-it board</td>
-            <td>Inspiration Board</td>
-          </tr>
+            <tr>
+              <th scope="row">Share</th>
+              <td>Post-it board</td>
+              <td>Inspiration Board</td>
+            </tr>
 
-          <tr>
-            <th scope="row">Collab</th>
-            <td>White Board</td>
-            <td>Memory Space</td>
-          </tr>
+            <tr>
+              <th scope="row">Collab</th>
+              <td>White Board</td>
+              <td>Memory Space</td>
+            </tr>
 
-        </tbody>
-      </table>
+          </tbody>
+        </table>
 
-      <div class="button">
-        <a class="btn btn-small" href="sign-up.html">Start Free Trial</a>
+        <div class="button">
+          <a class="btn btn-small" href="sign-up.html">Start Free Trial</a>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <div class="grid">
+      <div class="unit xs-1 s-1 m-1-2 l-1-2">
+        <h2>Products</h2>
+        <a href="tour.html">Features</a>
+        <a href="pricing.html">Pricing</a>
       </div>
 
+      <div class="unit xs-1 s-1 m-1-2 l-1-2">
+        <h2>Contact</h2>
+        <p>1 (800) 345-6789</p>
+        <p>whitespace@gmail.com</p>
+      </div>
     </div>
-  </main>
+
+    <div>
+      <small><a href="#">Terms of Service</a></small>
+      <small><a href="#">Privacy Policy</a></small>
+      <small>&copy; WhiteSpace</small>
+    </div>
+  </footer>
 </body>
 </html>
