@@ -2,9 +2,34 @@ html {
   font-family: "Open Sans", sans-serif;
 }
 
-h1 {font-family: "Bad Script", cursive;
+.logo {
+  font-family: "Bad Script", cursive;
 }
 
-banner div h2 {
+.pink {
   color: #f67f93;
+}
+
+nav {
+  background-color: #fff;
+  color: #000;
+}
+
+nav a:hover {
+  color: white;
+  background-color: turquoise;
+}
+
+.btn {
+  background-color: #f67f93;
+  border-color: #f67f93;
+}
+
+.btn:hover {
+  background-color: turquoise;
+  border-color: turquoise;
+}
+
+.banner1 {
+  border: 3px solid yellow;
 }

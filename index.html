@@ -6,31 +6,34 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Bad+Script|Open+Sans:400,700" rel="stylesheet">
   <link href="css/modules.css" rel="stylesheet">
-  <link href="css/gridifier.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <h1>WS</h1>
-    <nav>
-      <a class="current" href="index.html">Home</a>
-      <a href="tour.html">Features</a>
-      <a href="pricing.html">Pricing</a>
-      <a href="sign-up.html">Sign Up</a>
+  <header class="banner">
+    <h1 class="logo">WS</h1>
+    <nav class="nav">
+      <ol>
+        <li><a class="current" href="index.html">Home</a></li>
+        <li><a href="tour.html">Features</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="sign-up.html">Sign Up</a></li>
+      </ol>
     </nav>
   </header>
+
   <main>
-    <banner>
+    <section class="banner1">
       <div>
-        <h2>YOU DO YOU,</h2>
-        <p>we'll help connect you to others who do the same<p>
+        <h2 class="pink">YOU DO YOU,</h2>
+        <p>we'll help connect you to others who do the same</p>
         <div class="button">
           <a class="btn" href="sign-up.html">Free Trial</a>
         </div>
         <small>NO CREDIT CARD REQUIRED</small>
       </div>
-    </banner>
+    </section>
 
     <h2>Features</h2>
     <section class="grid">
@@ -96,11 +99,11 @@
       </div>
     </div>
 
-      <div>
-        <a href="#">Terms of Service</a>
-        <a href="#">Privacy Policy</a>
-        <p>&copy; WhiteSpace<p>
-      </div>
+    <div>
+      <small><a href="#">Terms of Service</a></small>
+      <small><a href="#">Privacy Policy</a></small>
+      <small>&copy; WhiteSpace</small>
+    </div>
   </footer>
 
 </body>
