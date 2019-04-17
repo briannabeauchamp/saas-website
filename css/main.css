@@ -16,18 +16,20 @@ nav {
 }
 
 nav a:hover {
-  color: white;
+  color: black;
   background-color: turquoise;
 }
 
 .btn {
+  color: white;
   background-color: #f67f93;
-  border-color: #f67f93;
+  border-color: turquoise;
 }
 
 .btn:hover {
+  color: black;
   background-color: turquoise;
-  border-color: turquoise;
+  border-color: #f67f93;
 }
 
 .banner1 {
