@@ -6,8 +6,8 @@ html {
   font-family: "Bad Script", cursive;
 }
 
-.pink {
-  color: #f67f93;
+.purple {
+  color: purple;
 }
 
 nav {
@@ -21,7 +21,7 @@ nav a:hover {
 }
 
 .btn {
-  color: white;
+  color: #000;
   background-color: #f67f93;
   border-color: turquoise;
 }
