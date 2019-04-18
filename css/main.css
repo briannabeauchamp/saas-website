@@ -4,15 +4,18 @@ html {
 
 .logo {
   font-family: "Bad Script", cursive;
+  font-size: 75px;
 }
 
 .purple {
   color: purple;
 }
 
-nav {
+nav li a {
   background-color: #fff;
   color: #000;
+  text-decoration: none;
+  border: 3px solid turquoise;
 }
 
 nav a:hover {
@@ -40,14 +43,11 @@ footer {
   text-align: center;
 }
 
-.pricing {
-  text-align: center;
-}
-
 .card {
   border: 5px solid purple;
 }
 
-.center {
-  text-align: center;
+.current {
+  color: #000;
+  background-color: #f67f93;
 }
