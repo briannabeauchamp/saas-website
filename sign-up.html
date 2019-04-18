@@ -11,7 +11,7 @@
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
 </head>
-<body>
+<body class="gutter">
   <ul class="skip-links">
     <li><a href="#main">Jump to main content</a></li>
     <li><a href="#nav">Jump to navigation</a></li>
@@ -22,22 +22,22 @@
       <h1 class="logo unit xs-1 s-1 m-1-2 l-1-2">WS</h1>
     </div>
     <div>
-      <nav role="navigation">
+      <nav role="navigation" id="nav" tabindex="0">
         <ol class="grid list-group-inline">
-          <li class="unit xs-1 s-1 m-1-4 l-1-4"><a class="current" href="index.html">Home</a></li>
-          <li class="unit xs-1 s-1 m-1-4 l-1-4"><a href="tour.html">Features</a></li>
-          <li class="unit xs-1 s-1 m-1-4 l-1-4"><a href="pricing.html">Pricing</a></li>
-          <li class="unit xs-1 s-1 m-1-4 l-1-4"><a href="sign-up.html">Sign Up</a></li>
+          <li class="mega unit xs-1 s-1 m-1-4 l-1-4"><a class="current" href="index.html">Home</a></li>
+          <li class="mega unit xs-1 s-1 m-1-4 l-1-4"><a href="tour.html">Features</a></li>
+          <li class="mega unit xs-1 s-1 m-1-4 l-1-4"><a href="pricing.html">Pricing</a></li>
+          <li class="mega unit xs-1 s-1 m-1-4 l-1-4"><a href="sign-up.html">Sign Up</a></li>
         </ol>
       </nav>
     </div>
   </header>
 
-  <main role="navigation">
+  <main role="main" id="main" tabindex="0">
     <section class="contact pad-t-2 pad-b-2">
       <div class="max-length">
-        <h2>Sign Up</h2>
-        <p>Start your free trial today!</p>
+        <h2 class="tera center">Sign Up</h2>
+        <p class="center">Start your free trial today!</p>
 
         <form class="push-0" method="POST" action="https://formspree.io/beau0764@algonquinlive.com">
           <div class="push">
@@ -50,7 +50,7 @@
           </div>
           <div class="push">
             <label for="select">Country</label>
-            <select id="subject" name="country">
+            <select id="country" name="country">
               <option>Canada</option>
               <option>USA</option>
             </select>
@@ -60,7 +60,7 @@
             <input id="password" type="password" required>
           </div>
           <div>
-            <button class="btn mega middle" type="submit">Start Free Trial</button>
+            <button class="btn mega center" type="submit">Start Free Trial</button>
           </div>
         </form>
 
@@ -71,13 +71,13 @@
   <footer role="contentinfo">
     <div class="grid">
       <div class="unit xs-1 s-1 m-1-2 l-1-2">
-        <h2>Products</h2>
+        <h2 class="mega">Products</h2>
         <a href="tour.html">Features</a>
         <a href="pricing.html">Pricing</a>
       </div>
 
       <div class="unit xs-1 s-1 m-1-2 l-1-2">
-        <h2>Contact</h2>
+        <h2 class="mega">Contact</h2>
         <p>1 (800) 345-6789</p>
         <p>whitespace@gmail.com</p>
       </div>

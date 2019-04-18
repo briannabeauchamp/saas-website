@@ -10,7 +10,7 @@
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
 </head>
-<body>
+<body class="gutter">
   <ul class="skip-links">
     <li><a href="#main">Jump to main content</a></li>
     <li><a href="#nav">Jump to navigation</a></li>
@@ -21,20 +21,20 @@
       <h1 class="logo unit xs-1 s-1 m-1-2 l-1-2">WS</h1>
     </div>
     <div>
-      <nav role="navigation">
+      <nav role="navigation" id="nav" tabindex="0">
         <ol class="grid list-group-inline">
-          <li class=" mega unit xs-1 s-1 m-1-4 l-1-4"><a class="current" href="index.html">Home</a></li>
-          <li class="mega unit xs-1 s-1 m-1-4 l-1-4"><a href="tour.html">Features</a></li>
-          <li class="mega unit xs-1 s-1 m-1-4 l-1-4"><a href="pricing.html">Pricing</a></li>
-          <li class="mega unit xs-1 s-1 m-1-4 l-1-4"><a href="sign-up.html">Sign Up</a></li>
+          <li class="mega unit xs-1 s-1 m-1-4 l-1-5"><a class="current" href="index.html">Home</a></li>
+          <li class="mega unit xs-1 s-1 m-1-4 l-1-5"><a href="tour.html">Features</a></li>
+          <li class="mega unit xs-1 s-1 m-1-4 l-1-5"><a href="pricing.html">Pricing</a></li>
+          <li class="mega unit xs-1 s-1 m-1-4 l-1-5"><a href="sign-up.html">Sign Up</a></li>
         </ol>
       </nav>
     </div>
   </header>
 
-  <main role="main">
-    <section class="banner1">
-      <div>
+  <main class="pad-b-2 pad-t-2" role="main" id="main" tabindex="0">
+    <section class="banner1 push">
+      <div class="center">
         <h2 class="pink">YOU DO YOU,</h2>
         <p>we'll help connect you to others who do the same</p>
         <div class="button">
@@ -44,10 +44,10 @@
       </div>
     </section>
 
-    <h2>Features</h2>
-    <section class="grid">
+    <h2 class="tera push-0 center">Features</h2>
+    <section class="grid push">
       <div class="chat unit xs-1 s-1 m-1-3 l-1-3">
-        <h3>Chat</h3>
+        <h3 class="giga">Chat</h3>
         <img class="img-flex" src="images/chat-icon.svg" alt="Chat bubble icon">
         <p>White Space is a valuable space for all artists and creators to be able to chat live with colleagues, mentors, and employers.</p>
         <div class="button">
@@ -55,7 +55,7 @@
         </div>
       </div>
       <div class="share unit xs-1 s-1 m-1-3 l-1-3">
-        <h3>Share</h3>
+        <h3 class="giga">Share</h3>
         <img class="img-flex" src="images/share-icon.svg" alt="Share icon">
         <p>This software is the key to getting your art out there for others to see.</p>
         <div class="button">
@@ -63,7 +63,7 @@
         </div>
       </div>
       <div class="collab unit xs-1 s-1 m-1-3 l-1-3">
-        <h3>Collab</h3>
+        <h3 class="giga">Collab</h3>
         <img class="img-flex" src="images/collab-icon.svg" alt="Collab icon">
         <p>This tool makes it easier than ever to collaborate with your peers.</p>
         <div class="button">
@@ -72,18 +72,18 @@
       </div>
     </section>
 
-    <h2>Pricing</h2>
-    <section class="grid ">
-      <div class="push chat unit xs-1 s-1 m-1-2 l-1-2">
-        <h3>30-Day Trial</h3>
+    <h2 class="pricing tera push-0">Pricing</h2>
+    <section class="grid pricing">
+      <div class="card gutter-1-2 push chat unit xs-1 s-1 m-1-2 l-1-2">
+        <h3 class="giga">30-Day Trial</h3>
         <p>Free</p>
         <hr>
         <div class="button push">
           <a class="mega btn btn-small" href="sign-up.html">Start Free Trial</a>
         </div>
       </div>
-      <div class="push share unit xs-1 s-1 m-1-2 l-1-2">
-        <h3>Premium</h3>
+      <div class="card gutter-1-2 push share unit xs-1 s-1 m-1-2 l-1-2">
+        <h3 class="giga">Premium</h3>
         <p>$120 CAD/Month</p>
         <hr>
         <div class="button push">
@@ -96,13 +96,13 @@
   <footer role="contentinfo">
     <div class="grid">
       <div class="unit xs-1 s-1 m-1-2 l-1-2">
-        <h2>Products</h2>
+        <h2 class="mega">Products</h2>
         <a href="tour.html">Features</a>
         <a href="pricing.html">Pricing</a>
       </div>
 
       <div class="unit xs-1 s-1 m-1-2 l-1-2">
-        <h2>Contact</h2>
+        <h2 class="mega">Contact</h2>
         <p>1 (800) 345-6789</p>
         <p>whitespace@gmail.com</p>
       </div>

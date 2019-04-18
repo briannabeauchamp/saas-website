@@ -35,3 +35,19 @@ nav a:hover {
 .banner1 {
   border: 3px solid yellow;
 }
+
+footer {
+  text-align: center;
+}
+
+.pricing {
+  text-align: center;
+}
+
+.card {
+  border: 5px solid purple;
+}
+
+.center {
+  text-align: center;
+}
